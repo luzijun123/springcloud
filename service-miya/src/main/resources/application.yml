@@ -1,6 +1,5 @@
 server:
-    port: 8762
-
+  port: 8862
 management:
   endpoints:
     web:
@@ -8,7 +7,7 @@ management:
         include: hystrix.stream
 spring:
   application:
-    name: service-hi
+    name: service-miya
   zipkin:
     base-url: http://localhost:9411
 eureka:
